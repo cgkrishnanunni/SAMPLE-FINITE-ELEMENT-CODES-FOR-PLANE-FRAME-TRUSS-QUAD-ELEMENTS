@@ -1,0 +1,61 @@
+q4.m
+0
+100  100  10  2 2
+200  0.3
+
+
+
+ 0
+0 0.5
+
+1
+0
+
+
+	fin >> file;
+	fin >> probType;
+	fin >> span >> depth >> thick >> nDivSpan >> nDivDepth;
+	fin >> E >> po;
+	fin >> load >> bx >> by;
+
+========
+q4.m
+0
+10  10  1  2  2
+10  0.
+
+0
+
+0.5
+0
+
+1
+0
+
+========
+
+q4.m
+0
+10  10  1  1  1
+10  0.
+
+1
+
+0.5
+0
+
+1
+0
+============
+
+
+	fin >> file;
+	fin >> probType;
+	fin >> span >> depth >> thick >> nDivSpan >> nDivDepth;
+	fin >> E >> po;
+	fin >> load >> bx >> by;
+	fin >> supType; // 1: uniform axial loading along x-dirn; 2: couple moment at end
+	fin >> theta;	// angle of distortion
+
+
+	fin >> supType; // 1: uniform axial loading along x-dirn; 2: couple moment at end
